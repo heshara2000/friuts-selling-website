@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,500;1,800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border:none; 
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+
+}
+
+.containers {
+    background: linear-gradient(45deg, blueviolet,lightgreen);
+    padding: 15px 9%;
+    padding: bottom 100px ;
+}
+   
+
+.container-reg {
+    background :whitesmoke;
+}
+
+#reg-img {
+    border: 1px solid black;
+    margin: 100px;
+   
+}
+
+#reg-btn {
+    width: 150px;
+    height: 40px;
+    margin-left: 8px;
+}
+
+
+.containers .heading {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #fff;
+    text-shadow: 0 5px 10px black;
+    font-size: 30px;
+}
+
+.containers .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 15px;
+
+}
+
+
+.containers .box-container .box {
+    box-shadow: 0 5px 10px black;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+     padding: 30px 20px;
+}
+
+.containers .box-container .box img{
+    height: 150px;
+    width: fit-content;
+
+}
+.containers .box-container .box h5 {
+    color: #222;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.containers .box-container .box p {
+    color: #242020;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.containers .box-container .box .btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 8px 25px;
+  
+}
+
+.containers .box-container .box:hover {
+    box-shadow: 0 10px 15px black;
+    transform:scale(1) ;
+}
+
+#cart-btn {
+    color: #c40d0d;
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    width: 100%;
+    height: fit-content;
+    border:1px solid wheat;
+    
+}
+.footer-copyright {
+    color: #666;
+    
+}
+
+
+.features .btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+
+.loginImage {
+    width: 100%;
+    height: 100%;
+    border: #c40d0d;
+}
+
+.img-fluid {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+}
+
+#reg {
+    border-radius: 25px;
+}
+
+
+#contact-id {
+    margin-bottom: 120px;
+    margin: 10px;
+}
+
+#contact-img {
+    height: 300px;
+    width: 300px;
+
+}
+
+#form1Example13 {
+    border-radius: 25px;
+}
+#form1Example23 {
+    border-radius: 25px;
+
+}
+
+.profile-container {
+    border: 2px solid black;
+    height: 650px;
+    width: 600px;
+    border-radius: 25px;
+    margin-left: 250px;
+    margin-top: 50px;
+    padding-left: 10px;
+    
+}
+h1 {
+    color: coral;
+    padding-top: 25px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.person {
+    
+     border: 1p solid blue;
+     font-size: 150px;
+     text-align: center;
+     padding-bottom: 10px;
+     
+}
+.line {
+    color: #c40d0d;
+    border: 2px solid;
+}
+.pname {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+}
+.pmail{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+
+}
+
+.pmobile{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+
+}
+.paddress{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+
+}
+
+
+
+.person-group{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 15px;
+    width: fit-content;
+    
+
+
+}
+.div1{
+    background-color: #589b37;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.div2{
+    background-color: #589b37;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.div3{
+    background-color: #589b37;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+.footer-icon {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    
+    top: 60px;
+    right:20px;
+    border: 2px solid black;
+    border-radius: 100px;
+    text-align: center;
+    background-color: #fff;
+
+    
+}
+.add-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.number {
+    color: blue;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-size: larger;
+}
